@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
         public FelineTestParameters(int kittensCount) {
             this.kittensCount = kittensCount;
         }
-
+        //Параметр.тест
         @Parameterized.Parameters
         public static Object[][] getKittensData() {
             return new Object[][]{

@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 
 @RunWith(MockitoJUnitRunner.class)
 public class LionTest {
-
+//Тесты
     @Test
     public void getKittensLion() throws Exception {
         Lion lion = new Lion("Самец");

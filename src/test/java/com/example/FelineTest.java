@@ -8,7 +8,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 public class FelineTest {
-
+//Тесты
     @Test
     public void eatMeat() throws Exception {
         Feline feline = new Feline();

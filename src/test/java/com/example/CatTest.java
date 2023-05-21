@@ -13,9 +13,9 @@ public class CatTest {
 
     @Mock
     Feline feline;
-
+//Тесты
     @Test
-    public void getSound() { // тест
+    public void getSound() {
         Cat cat = new Cat(feline);
         String expectedGetSound = "Мяу"; // ожидаемый результат
         String actualGetSound = cat.getSound();
