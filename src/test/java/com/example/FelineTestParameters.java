@@ -20,12 +20,12 @@ import static org.junit.Assert.*;
         public static Object[][] getKittensData() {
             return new Object[][]{
                     {0},
-                    {9},
+                    {4},
             };
         }
 
         @Test
-        public void getKittens_ParamKitten_True() {
+        public void getKittensParamKitten() {
             Feline feline = new Feline();
             int actualGetKittens = feline.getKittens(kittensCount);
             Assert.assertEquals(kittensCount, actualGetKittens);
